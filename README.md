@@ -11,7 +11,7 @@ There are 2 components to this project:
       * Location filtering should allow a user to select an area of any specificity (i.e., city, principality, region, country, subcontinent, continent) and include any parent locations (e.g., if US is chosen, any US state should be selected as well)
       
 2. Frontend
-  - MAIN GOAL: Finish the frontend implentation of the frontend app, inspired by LinkedIn's recruiter tool: https://www.youtube.com/watch?v=S6mVwmCHShk. This is mostly done, we just need caching and a literal "which experts to show" filter from python 
+  - MAIN GOAL: Finish the frontend implentation of the frontend app, inspired by LinkedIn's recruiter tool (https://www.youtube.com/watch?v=S6mVwmCHShk), Juicebox's people GPT (https://juicebox.ai/), and Happenstance's tool (https://happenstance.ai/). This is mostly done, we just need caching and a literal "which experts to show" filter from python 
   - CONSIDERATIONS:
       * This should get experts from the python backend and render those in the filter.
       * There should be a caching mechanism for saving user's filter queries from the backend given they take a long time to calculate for semantic filtering.
